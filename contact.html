@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="canonical" href="https://icons.getbootstrap.com/">
+    <script src="https://kit.fontawesome.com/d81cfc9e01.js" crossorigin="anonymous"></script>
+    <style>
+        .spaner {
+            width: 10%;
+            border-radius: 60%;
+
+        }
+
+        .divider {
+            width: 10%;
+            text-align: center;
+            background-color: green;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation var -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
+        <a class="navbar-brand text-warning" href="#">dReam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item  ">
+                    <a class="nav-link text-light" href="home.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light  " href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-light " href="service.html">Service</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-light " href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light   " href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Content
+                    </a>
+                    <div class="dropdown-menu  " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Web Development</a>
+                        <a class="dropdown-item" href="#">Graphics Design</a>
+                        <a class="dropdown-item" href="#">Game Development</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Others</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+
+        
+    </nav>
+
+
+    <div class="container my-4">
+        <div class="row ">
+            <div class="col-lg-6 my-4">
+                <form action="" method="post" class="my-4">
+
+                    <h4 class="text-success text-center my-4 "> Contact Us</h4>
+
+                    <hr class="divider">
+
+                    <div class="form-group">
+                        Name :
+                        <input type="text" name="name" class="form-control rounded" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        Email Address :
+                        <input type="Email" name="email" class="form-control rounded" placeholder="Email address">
+                    </div>
+                    <div class="form-group">
+                        Select your country :
+                        <select name="" id="" class="form-control">
+                            <option value="name">Bangladesh</option>
+                            <option value="name">India</option>
+                            <option value="name">Pakistan</option>
+                            <option value="name">China</option>
+                            <option value="name">USA</option>
+
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+
+                        <span class="text-success">Are you member? </span> <span class="ml-4"> Yes</span> <input
+                            type="checkbox" name="checkbox" id="" class="text-success ml-2">
+
+                    </div>
+                    <div class="form-group">
+                        Write your concern :
+                        <textarea class="form-control" placeholder="write your concern" name="" id=""></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-success" value="Submit">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="footer">
+                <div class="col-md-12 w-100 my-4">
+                    <span>&copy; All rights reserved by <b class="text-warning">dReam</b>|| 2020</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
